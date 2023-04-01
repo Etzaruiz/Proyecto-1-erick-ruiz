@@ -29,19 +29,25 @@ nav{
     width: 150px;
     cursor: pointer;
     }
+.botones{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 
     nav button{
         border: 0;
         outline: 0;
         background: #db0001;
         color: #fff;
-        padding: 20px 20px 5.5px; /*COMPONER LA PARTE DEL CENTRADO DE BOTONES*/
         font-size: 12px;
         border-radius: 4px;
-        margin-left: 10px;
         cursor: pointer;
+        margin-left: 10px;
+        height: 40px;
+        padding: 7px 14px; 
     }
-
+    
     .language{
         display: inline-flex;
         align-items: center;
@@ -106,25 +112,16 @@ nav{
         padding: 15px 30px;
     }
 
-    .img1-col{
-        background: url(./assets/tv.png);
-        background-repeat: no-repeat;
-        width: 600px;
-        height: 550px;
-        top: 550px;
-        margin bottom: 20px;
+    /*-------------------------------------*PARTE PRINCIPAL DE LA PAGINA*-----------------------------*/
+    .img1-col img{
+        width: 350px;
+        height: 250px;
     }
 
     .img1-col iframe{
-        padding-left: 90px;
-        position: relative;
-        height: 265px;
-        width: 550px;
-        top: 100px;
-        display: flex;
-        margin: auto;
+      position: relative;
     }
-
+  
     .features{
         padding: 50px 12%;
         font-size: 22px;
@@ -144,8 +141,12 @@ nav{
         margin-bottom: 20px;
     }
     .features h2{
-        
+        font-size: 50px;
+        font-weight: 600px;
+        margin-bottom: 20px;
     }
+
+
     
     
 
