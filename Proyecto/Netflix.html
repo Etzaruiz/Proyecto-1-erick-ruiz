@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NETFLIX</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <header>
@@ -13,12 +14,35 @@
             <nav>
                 <img src="./assets/logo.png" class="logo">
                 <div>
-                    <button class="language">English <img src="./assets/flecha abajo.png"></button>
+                    <button class="language"> <span class="material-symbols-outlined">
+                        language
+                        </span> English <img src="./assets/flecha abajo.png">
+                    </button>
                     <button>Sign In</button>
                 </div>
             </nav>
+        <div class="container">
+            <h1>Unlimited movies, TV shows, and more.</h1>
+            <h3>Watch anywhere. Cancel anytime.</h3>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <form class="email-sign-up">
+                <input type="email" placeholder="Email address" required>
+                <button type="submit">Get started</button>
+            </form>
         </div>
-         
+    </div>
     </header>
+    <main>
+        <div class="features">
+            <div class="row">
+                <div class="tex1-col"></div>
+                    <h2>Enjoy on your TV.</h2>
+                    <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>  
+            </div>
+            <div class="img1-col">
+                <img src="./assets/tv.png" alt="televisión reproduciendo peliculas">
+            </div>
+        </div>
+    </main>
 </body>
 </html>

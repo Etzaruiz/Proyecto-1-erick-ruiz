@@ -35,7 +35,7 @@ nav{
         outline: 0;
         background: #db0001;
         color: #fff;
-        padding: 7px 20px;
+        padding: 20px 20px 5.5px; /*COMPONER LA PARTE DEL CENTRADO DE BOTONES*/
         font-size: 12px;
         border-radius: 4px;
         margin-left: 10px;
@@ -54,5 +54,54 @@ nav{
         width: 10px;
         margin-left: 10px;
     }
+
+    .container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .container h1{
+        font-size: 60px;
+        line-height: 70px;
+        font-weight: 600;
+        max: width 650px; ;
+    }
+
+    .container h3{
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .email-sign-up{
+        background: #fff;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        overflow: hidden;
+    }
+
+    .email-sign-up input{
+        flex: 1;
+        border: 0;
+        outline: 0;
+        margin-left: 20px;
+    }
+
+    .email-sign-up button{
+        background: #db0001;
+        border: 0;
+        outline: 0;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        padding: 15px 30px;
+    }
+
+
 
 
