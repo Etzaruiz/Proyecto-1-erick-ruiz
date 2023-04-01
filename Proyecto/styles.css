@@ -55,6 +55,10 @@ nav{
         margin-left: 10px;
     }
 
+    .sign-in{
+        padding: 0;
+    }
+
     .container{
         position: absolute;
         top: 50%;
@@ -68,7 +72,7 @@ nav{
         font-size: 60px;
         line-height: 70px;
         font-weight: 600;
-        max: width 650px; ;
+        max-width:  650px; ;
     }
 
     .container h3{
@@ -101,6 +105,51 @@ nav{
         cursor: pointer;
         padding: 15px 30px;
     }
+
+    .img1-col{
+        background: url(./assets/tv.png);
+        background-repeat: no-repeat;
+        width: 600px;
+        height: 550px;
+        top: 550px;
+        margin bottom: 20px;
+    }
+
+    .img1-col iframe{
+        padding-left: 90px;
+        position: relative;
+        height: 265px;
+        width: 550px;
+        top: 100px;
+        display: flex;
+        margin: auto;
+    }
+
+    .features{
+        padding: 50px 12%;
+        font-size: 22px;
+        display: flex;
+    }
+
+    .row{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 50px 0;
+    }
+
+    .tex1-col{
+        flex-basis: 50%;
+        margin-bottom: 20px;
+    }
+    .features h2{
+        
+    }
+    
+    
+
+
 
 
 
