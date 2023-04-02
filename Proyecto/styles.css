@@ -214,6 +214,16 @@ nav{
         transform: rotate(135deg);
     }
 
+    .questions .email-sign-up{
+        max-width: 600px;
+        margin: 20px auto 60px;
+    }
+
+    .questions small{
+        font-size: 13px;
+    }
+
+
     
 
 
