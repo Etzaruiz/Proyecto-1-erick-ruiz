@@ -113,19 +113,9 @@ nav{
     }
 
     /*-------------------------------------*PARTE PRINCIPAL DE LA PAGINA*-----------------------------*/
-    .img1-col img{
-        width: 350px;
-        height: 250px;
-    }
-
-    .img1-col iframe{
-      position: relative;
-    }
-  
     .features{
         padding: 50px 12%;
         font-size: 22px;
-        display: flex;
     }
 
     .row{
@@ -140,11 +130,26 @@ nav{
         flex-basis: 50%;
         margin-bottom: 20px;
     }
-    .features h2{
-        font-size: 50px;
-        font-weight: 600px;
+
+    .img1-col{
+        flex-basis: 50%;
         margin-bottom: 20px;
     }
+
+    .img1-col video{
+        display: block;
+        width: 90%;
+        margin-top: auto;
+    }
+
+    .features h2{
+        font-size: 50px;
+        font-weight: 600;
+        margin-bottom: 20px;
+
+    }
+
+    
 
 
     
