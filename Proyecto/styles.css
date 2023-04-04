@@ -223,6 +223,49 @@ nav{
         font-size: 13px;
     }
 
+    .piepg{
+        padding: 50px 15% 10px;
+        border-top: 6px solid #333;
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    .piepg h2{
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 10px;
+    }
+
+    .grid-container .col{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .col a{
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    .piepg .language{
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 3px;
+        padding-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .piepg p{
+        color: rgba(255, 255, 255, 0.7;
+        margin-bottom: 80px;
+    }
+
+
+
 
     
 
