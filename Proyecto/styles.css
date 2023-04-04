@@ -116,6 +116,8 @@ nav{
     .features{
         padding: 50px 12%;
         font-size: 22px;
+        border-top: 8px solid #333;
+        color: rgba(255, 255, 255, 0.7);
     }
 
     .row{
@@ -148,10 +150,18 @@ nav{
         margin-bottom: 20px;
     }
 
+    .features hr{
+        border-top: 8px solid #333;
+        color: rgba(255, 255, 255, 0.7);
+        padding: 0;
+    }
+
     .questions{
         padding: 10px 12%;
         text-align: center;
         font-size: 18px;
+        border-top: 8px solid #333;
+        color: rgba(255, 255, 255, 0.7);
     }
 
     .questions h2{
@@ -225,7 +235,7 @@ nav{
 
     .piepg{
         padding: 50px 15% 10px;
-        border-top: 6px solid #333;
+        border-top: 8px solid #333;
         color: rgba(255, 255, 255, 0.7);
     }
 
@@ -255,13 +265,12 @@ nav{
         color: #fff;
         padding: 10px 20px;
         border-radius: 3px;
-        padding-top: 10px;
+        margin-top: 45px;
         margin-bottom: 20px;
     }
 
     .piepg p{
         color: rgba(255, 255, 255, 0.7;
-        margin-bottom: 80px;
     }
 
 
