@@ -137,6 +137,7 @@ nav{
 
     .prueba{
         display: flex;
+        gap: 100px;
         width: 50%;
         justify-content: center;
     }
@@ -267,7 +268,7 @@ nav{
         color: rgba(255, 255, 255, 0.7);
     }
 
-    .piepg .language{
+    .piepg .language1{
         color: #fff;
         padding: 10px 20px;
         border-radius: 3px;
