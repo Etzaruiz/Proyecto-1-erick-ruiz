@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 body{
@@ -47,8 +47,13 @@ nav{
         height: 40px;
         padding: 7px 14px; 
     }
+
+    button .login {
+        text-decoration: none;
+        color: #fff;
+    }
     
-    .language{
+    .language1{
         display: inline-flex;
         align-items: center;
         background: transparent;
@@ -56,7 +61,7 @@ nav{
         padding: 7px 10px;
     }
 
-    .language img{
+    .language1 img{
         width: 10px;
         margin-left: 10px;
     }
@@ -114,20 +119,27 @@ nav{
 
     /*-------------------------------------*PARTE PRINCIPAL DE LA PAGINA*-----------------------------*/
     .features{
-        padding: 50px 12%;
         font-size: 22px;
-        border-top: 8px solid #333;
+        border-top: 0px solid #333;
         color: rgba(255, 255, 255, 0.7);
     }
 
     .row{
+        justify-content: center;
         display: flex;
         width: 100%;
         align-items: center;
         flex-wrap: wrap;
         padding: 50px 0;
+        border-top: 8px solid #333;
+        color: rgba(255, 255, 255, 0.7);
     }
 
+    .prueba{
+        display: flex;
+        width: 50%;
+        justify-content: center;
+    }
     .tex1-col{
         flex-basis: 50%;
         margin-bottom: 20px;
@@ -150,23 +162,17 @@ nav{
         margin-bottom: 20px;
     }
 
-    .features hr{
-        border-top: 8px solid #333;
-        color: rgba(255, 255, 255, 0.7);
-        padding: 0;
-    }
-
     .questions{
         padding: 10px 12%;
         text-align: center;
-        font-size: 18px;
+        font-size: 25px;
         border-top: 8px solid #333;
         color: rgba(255, 255, 255, 0.7);
     }
 
     .questions h2{
         font-weight: 500;
-        font-size: 40px;
+        font-size: 50px;
     }
 
     .list{
@@ -185,7 +191,7 @@ nav{
         display: flex;
         align-items: center;
         padding: 20px;
-        font-size: 18px;
+        font-size: 28px;
         font-weight: 500;
         background: #303030;
         margin-bottom: 2px;
@@ -230,7 +236,7 @@ nav{
     }
 
     .questions small{
-        font-size: 13px;
+        font-size: 22px;
     }
 
     .piepg{
@@ -272,6 +278,8 @@ nav{
     .piepg p{
         color: rgba(255, 255, 255, 0.7;
     }
+
+
 
 
 
