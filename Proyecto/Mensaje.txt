@@ -1,0 +1,15 @@
+Lo que me gusto mas de este proyecto principalmente fue que era un reto muy importante, puesto que,
+no fue facil eh incluso pense que no entregaria nada, me estaba colapsando jaja F :(, de ahi en fuera;
+pues ser muy autodidacta, porque habia cosas que no sabia para que se utilizaban y sobre todo lo que necesitaba hacer,
+fue sencillo no, algo tedioso bastante y dificil jaja :(
+
+Lo que me gusto menos es que es muy tedioso, complicado de acomodar los bloques, no se, si porque es la primera vez 
+que trabajo con esto. pero de igual forma a veces es demasiado picky y hay que estar atentos a los cierres de los div ya que,
+a veces si falta un cierre, nomas y luego no te agarra el css, en fin creo que estuvo bueno jajaja :)
+
+lo que se me facilito mas fue agregar lo esencial, textos, parrafos, imagenes, dar estilos es un poco dificil cuando no conoces
+exactamente que se necesita pero al ir experimentando poco a poco te vas dando cuenta para que funciona cada cosa y es un plus
+
+lo que me costo mas trabajo en html quizas puede ser el tipo de etiquetas que puede llevar una clase en html pero bueno investigando se logro.
+
+aun asi estoy muy agradecido con los senseis pues por su apoyo y su enseñanza hicieron posible esto los TQM :3
